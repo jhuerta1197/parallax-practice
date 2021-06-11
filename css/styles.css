@@ -6,13 +6,13 @@
     background-attachment: fixed;
     font-family: 'Pacifico', cursive;
     color: black;
+    background-position: center;
 }
 #sec2{
     background-image: url(https://images.unsplash.com/photo-1498857127156-d2943a73f456?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
     background-size: cover;
     min-height: 100vh;
     background-attachment: fixed;
-    color: white;
 }
 #sec3{
     background-image: url(https://images.unsplash.com/photo-1578158335529-27b8d78cfea5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1351&q=80);
@@ -33,19 +33,46 @@
     background-attachment: fixed;
 }
 
+#sec6{
+    background-color: tomato;
+}
+
 .middleAlign{
     text-align: center;
-    padding: 250px;
+    padding: 10%;
+    margin: 15%;
 }
 
 .bgColor{
     background-color: rgba(0, 0, 0, .5);
     color: white;
-    height: 75vh;
 }
 
 .semiTransparent:hover{
     background-color: rgba(255, 255, 255, 0.5);
     color: white;
     
+}
+
+.headerFont{
+    font-family: 'Pacifico', cursive;
+}
+
+.footerFont{
+    font-family: 'Roboto Slab', serif;
+}
+
+.textFont{
+    font-family: 'Mate SC', serif;
+}
+
+.icon{
+    font-size: 25px;
+    color: white;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 50%;
+    
+    
+
 }
